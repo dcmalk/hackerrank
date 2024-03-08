@@ -1,5 +1,3 @@
-'use strict';
-
 /*
  * Complete the 'matchingStrings' function below.
  *
@@ -25,7 +23,6 @@ function matchingStrings(strings, queries) {
 }
 
 function main() {
-  // Hardcoded input for testing
   const strings = ['ab', 'ab', 'abc'];
   const queries = ['ab', 'abc', 'bc'];
 

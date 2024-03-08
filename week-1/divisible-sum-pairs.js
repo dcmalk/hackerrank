@@ -1,5 +1,3 @@
-'use strict';
-
 /*
  * Complete the 'divisibleSumPairs' function below.
  *
@@ -24,7 +22,6 @@ function divisibleSumPairs(n, k, ar) {
 }
 
 function main() {
-  // Hardcoded input for testing
   const n = 6;
   const k = 3;
   const ar = [1, 3, 2, 6, 1, 2];

@@ -26,7 +26,8 @@ function breakingRecords(scores) {
 }
 
 function main() {
-  const scores = [10, 5, 20, 20, 4, 5, 2, 25, 1]; //[12, 24, 10, 24];
+  // const score = [12, 24, 10, 24];
+  const scores = [10, 5, 20, 20, 4, 5, 2, 25, 1];
   const result = breakingRecords(scores);
   console.log(result.join(' '));
 }
