@@ -1,3 +1,10 @@
+/*
+ * Complete the 'flippingBits' function below.
+ *
+ * The function is expected to return a LONG_INTEGER.
+ * The function accepts LONG_INTEGER n as parameter.
+ */
+
 function flippingBits(n) {
   let bin = n.toString(2).padStart(32, '0');
   let flip = '';
@@ -6,8 +13,8 @@ function flippingBits(n) {
     flip = flip + (bin[i] === '0' ? '1' : '0');
   }
 
-  console.log(bin);
-  console.log(flip);
+  // console.log(bin);
+  // console.log(flip);
   return parseInt(flip, 2);
 }
 

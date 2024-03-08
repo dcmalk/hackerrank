@@ -1,3 +1,10 @@
+/*
+ * Complete the 'pangrams' function below.
+ *
+ * The function is expected to return a STRING.
+ * The function accepts STRING s as parameter.
+ */
+
 function pangrams(s) {
   const alphabet = 'abcdefghijklmnopqrstuvwxyz';
   const chars = s.toLowerCase();
@@ -8,6 +15,7 @@ function pangrams(s) {
     }
   }
 
+  // // First pass
   // s.toLowerCase()
   //   .split('')
   //   .forEach((char) => {
